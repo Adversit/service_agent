@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=64.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "bank_service_agent"
+version = "0.1.0"
+description = "基于 DeepSeek API 的银行客服助手系统"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+dependencies = [
+    "openai>=1.0.0",
+    "python-dotenv>=0.19.0",
+    "langchain>=0.1.0",
+    "langchain-community>=0.0.10",
+    "sentence-transformers>=2.2.2",
+    "langsmith>=0.0.52",
+    "loguru>=0.7.0",
+    "google-api-python-client>=2.0.0"
+]
+
+[tool.setuptools]
+packages = ["src"]
+
+[tool.setuptools.package-data]
+"*" = ["*.txt", "*.md"] 

@@ -1,0 +1,279 @@
+2025-03-11 23:20:39.381 | INFO     | src.tools:__init__:32 - 正在初始化模型，使用设备: cuda
+2025-03-11 23:22:52.047 | INFO     | src.tools:__init__:32 - 正在初始化模型，使用设备: cpu
+2025-03-11 23:23:00.228 | ERROR    | __main__:initialize_agent:32 - 初始化失败: Must provide state_schema or input and output
+2025-03-11 23:24:32.919 | INFO     | src.tools:__init__:32 - 正在初始化模型，使用设备: cpu
+2025-03-11 23:24:43.015 | ERROR    | __main__:initialize_agent:32 - 初始化失败: unhashable type: 'dict'
+2025-03-11 23:26:23.124 | INFO     | src.tools:__init__:32 - 正在初始化模型，使用设备: cpu
+2025-03-11 23:26:31.229 | INFO     | __main__:initialize_agent:30 - 成功初始化智能体
+2025-03-11 23:28:02.318 | INFO     | src.tools:__init__:32 - 正在初始化模型，使用设备: cpu
+2025-03-11 23:28:12.141 | INFO     | __main__:initialize_agent:30 - 成功初始化智能体
+2025-03-11 23:28:57.003 | INFO     | src.tools:load_documents:61 - 成功处理文件: bank.txt
+2025-03-11 23:28:57.003 | INFO     | src.tools:load_documents:69 - 开始创建文档嵌入，共 2 个文档片段
+2025-03-11 23:28:57.135 | ERROR    | src.tools:load_documents:84 - 处理文档时出错: 'numpy.ndarray' object has no attribute 'embed_documents'
+2025-03-11 23:31:00.075 | INFO     | src.tools:__init__:52 - 正在初始化模型，使用设备: cpu
+2025-03-11 23:31:09.723 | INFO     | __main__:initialize_agent:30 - 成功初始化智能体
+2025-03-11 23:31:18.443 | INFO     | src.tools:load_documents:82 - 成功处理文件: bank.txt
+2025-03-11 23:31:18.444 | INFO     | src.tools:load_documents:88 - 开始创建文档嵌入，共 2 个文档片段
+2025-03-11 23:31:18.571 | INFO     | src.tools:load_documents:92 - 成功创建向量存储
+2025-03-11 23:31:40.283 | ERROR    | src.agent:chat:132 - 处理查询时出错: 'StateGraph' object has no attribute 'run'
+2025-03-11 23:31:46.284 | ERROR    | src.agent:chat:132 - 处理查询时出错: 'StateGraph' object has no attribute 'run'
+2025-03-11 23:33:40.255 | INFO     | src.tools:__init__:52 - 正在初始化模型，使用设备: cpu
+2025-03-11 23:33:52.847 | INFO     | __main__:initialize_agent:30 - 成功初始化智能体
+2025-03-11 23:34:00.642 | INFO     | src.tools:load_documents:82 - 成功处理文件: bank.txt
+2025-03-11 23:34:00.642 | INFO     | src.tools:load_documents:88 - 开始创建文档嵌入，共 2 个文档片段
+2025-03-11 23:34:00.770 | INFO     | src.tools:load_documents:92 - 成功创建向量存储
+2025-03-11 23:34:18.563 | ERROR    | src.tools:query:141 - 调用模型API失败: 401 Client Error: Unauthorized for url: https://api.deepseek.com/v1/chat/completions
+2025-03-11 23:34:18.871 | ERROR    | src.tools:query:141 - 调用模型API失败: 401 Client Error: Unauthorized for url: https://api.deepseek.com/v1/chat/completions
+2025-03-11 23:34:31.466 | ERROR    | src.tools:query:141 - 调用模型API失败: 401 Client Error: Unauthorized for url: https://api.deepseek.com/v1/chat/completions
+2025-03-11 23:34:31.773 | ERROR    | src.tools:query:141 - 调用模型API失败: 401 Client Error: Unauthorized for url: https://api.deepseek.com/v1/chat/completions
+2025-03-11 23:36:56.291 | INFO     | src.tools:__init__:52 - 正在初始化模型，使用设备: cpu
+2025-03-11 23:37:06.208 | INFO     | __main__:initialize_agent:30 - 成功初始化智能体
+2025-03-11 23:37:11.309 | INFO     | src.tools:load_documents:82 - 成功处理文件: bank.txt
+2025-03-11 23:37:11.309 | INFO     | src.tools:load_documents:88 - 开始创建文档嵌入，共 2 个文档片段
+2025-03-11 23:37:11.450 | INFO     | src.tools:load_documents:92 - 成功创建向量存储
+2025-03-11 23:37:20.328 | ERROR    | src.tools:query:141 - 调用模型API失败: 404 Client Error: Not Found for url: https://api.deepseek.com/
+2025-03-11 23:37:21.085 | ERROR    | src.tools:query:141 - 调用模型API失败: 404 Client Error: Not Found for url: https://api.deepseek.com/
+2025-03-11 23:43:58.337 | INFO     | src.tools:__init__:53 - 正在初始化模型，使用设备: cpu
+2025-03-11 23:44:09.072 | INFO     | __main__:initialize_agent:30 - 成功初始化智能体
+2025-03-11 23:44:16.942 | INFO     | src.tools:load_documents:83 - 成功处理文件: bank.txt
+2025-03-11 23:44:16.943 | INFO     | src.tools:load_documents:89 - 开始创建文档嵌入，共 2 个文档片段
+2025-03-11 23:44:17.069 | INFO     | src.tools:load_documents:93 - 成功创建向量存储
+2025-03-11 23:44:25.507 | ERROR    | src.tools:query:140 - 调用模型API失败: Error code: 401 - {'error': {'message': 'Authentication Fails (no such user)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}
+2025-03-11 23:44:25.607 | ERROR    | src.tools:query:140 - 调用模型API失败: Error code: 401 - {'error': {'message': 'Authentication Fails (no such user)', 'type': 'authentication_error', 'param': None, 'code': 'invalid_request_error'}}
+2025-03-11 23:51:56.758 | INFO     | src.tools:__init__:53 - 正在初始化模型，使用设备: cpu
+2025-03-11 23:52:06.791 | INFO     | __main__:initialize_agent:30 - 成功初始化智能体
+2025-03-11 23:52:11.794 | INFO     | src.tools:load_documents:83 - 成功处理文件: bank.txt
+2025-03-11 23:52:11.794 | INFO     | src.tools:load_documents:89 - 开始创建文档嵌入，共 2 个文档片段
+2025-03-11 23:52:11.924 | INFO     | src.tools:load_documents:93 - 成功创建向量存储
+2025-03-11 23:59:07.466 | INFO     | __main__:initialize_langsmith:39 - 成功初始化 LangSmith
+2025-03-11 23:59:07.466 | INFO     | src.tools:__init__:55 - 正在初始化模型，使用设备: cpu
+2025-03-11 23:59:17.137 | INFO     | __main__:initialize_agent:53 - 成功初始化智能体
+2025-03-11 23:59:26.009 | INFO     | src.tools:load_documents:86 - 成功处理文件: bank.txt
+2025-03-11 23:59:26.009 | INFO     | src.tools:load_documents:92 - 开始创建文档嵌入，共 2 个文档片段
+2025-03-11 23:59:26.129 | INFO     | src.tools:load_documents:96 - 成功创建向量存储
+2025-03-12 00:05:36.502 | INFO     | __main__:initialize_langsmith:42 - 成功初始化 LangSmith
+2025-03-12 00:05:36.502 | INFO     | src.tools:__init__:55 - 正在初始化模型，使用设备: cpu
+2025-03-12 00:05:45.991 | INFO     | __main__:initialize_agent:56 - 成功初始化智能体
+2025-03-12 00:05:53.249 | INFO     | src.tools:load_documents:86 - 成功处理文件: bank.txt
+2025-03-12 00:05:53.249 | INFO     | src.tools:load_documents:92 - 开始创建文档嵌入，共 2 个文档片段
+2025-03-12 00:05:53.379 | INFO     | src.tools:load_documents:96 - 成功创建向量存储
+2025-03-12 00:05:57.892 | INFO     | src.tools:load_documents:86 - 成功处理文件: bank.txt
+2025-03-12 00:05:57.892 | INFO     | src.tools:load_documents:92 - 开始创建文档嵌入，共 2 个文档片段
+2025-03-12 00:05:57.985 | INFO     | src.tools:load_documents:96 - 成功创建向量存储
+2025-03-12 00:07:28.151 | ERROR    | src.tools:search:222 - 执行搜索时出错: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+2025-03-12 00:12:33.467 | ERROR    | src.tools:search:222 - 执行搜索时出错: [WinError 10060] 由于连接方在一段时间后没有正确答复或连接的主机没有反应，连接尝试失败。
+2025-03-12 00:58:32.149 | INFO     | src.config:<module>:116 - 配置验证结果:
+2025-03-12 00:58:32.150 | INFO     | src.config:<module>:117 - 基础配置: ✓
+2025-03-12 00:58:32.150 | INFO     | src.config:<module>:118 - Google API: ✓
+2025-03-12 00:58:32.150 | INFO     | src.config:<module>:119 - 代理配置: ✓
+2025-03-12 00:58:32.151 | INFO     | src.tools:__init__:194 - 使用代理设置: 127.0.0.1:7890
+2025-03-12 00:58:32.154 | INFO     | src.tools:__init__:207 - 成功初始化 Google 搜索服务
+2025-03-12 00:58:32.342 | INFO     | src.tools:search:224 - 开始执行搜索: 中国工商银行最新存款利率
+2025-03-12 00:58:33.679 | INFO     | src.tools:search:245 - 搜索成功，找到 2 条结果
+2025-03-12 15:33:08.846 | INFO     | src.config:<module>:116 - 配置验证结果:
+2025-03-12 15:33:08.846 | INFO     | src.config:<module>:117 - 基础配置: ✓
+2025-03-12 15:33:08.846 | INFO     | src.config:<module>:118 - Google API: ✓
+2025-03-12 15:33:08.846 | INFO     | src.config:<module>:119 - 代理配置: ✓
+2025-03-12 15:33:08.902 | INFO     | __main__:initialize_langsmith:42 - 成功初始化 LangSmith
+2025-03-12 15:33:08.902 | INFO     | src.tools:__init__:59 - 正在初始化模型，使用设备: cpu
+2025-03-12 15:33:16.715 | INFO     | src.tools:__init__:243 - 使用代理设置: 127.0.0.1:7890
+2025-03-12 15:33:16.728 | INFO     | src.tools:__init__:256 - 成功初始化 Google 搜索服务
+2025-03-12 15:33:16.733 | INFO     | __main__:initialize_agent:56 - 成功初始化智能体
+2025-03-12 15:33:24.305 | INFO     | src.tools:load_documents:91 - 成功处理文件: bank.txt
+2025-03-12 15:33:24.305 | INFO     | src.tools:load_documents:97 - 开始创建文档嵌入，共 2 个文档片段
+2025-03-12 15:33:24.532 | INFO     | src.tools:load_documents:101 - 成功创建向量存储
+2025-03-12 15:34:15.684 | INFO     | src.tools:query:134 - 正在搜索相关文档: 银行的主要业务有哪些
+2025-03-12 15:34:15.721 | INFO     | src.tools:query:142 - 找到 2 个相关文档片段
+2025-03-12 15:34:15.721 | INFO     | src.tools:query:163 - 正在生成答案
+2025-03-12 15:34:36.983 | INFO     | src.tools:query:165 - 成功生成答案
+2025-03-12 15:36:19.184 | INFO     | src.tools:search:273 - 开始执行搜索: 今天的美元汇率是多少
+2025-03-12 15:36:20.513 | INFO     | src.tools:search:294 - 搜索成功，找到 5 条结果
+2025-03-12 15:38:47.847 | ERROR    | src.tools:query:223 - 调用模型API失败: API请求失败: HTTPSConnectionPool(host='api.deepseek.com', port=443): Read timed out.
+2025-03-12 15:50:12.052 | INFO     | src.config:<module>:116 - 配置验证结果:
+2025-03-12 15:50:12.052 | INFO     | src.config:<module>:117 - 基础配置: ✓
+2025-03-12 15:50:12.053 | INFO     | src.config:<module>:118 - Google API: ✓
+2025-03-12 15:50:12.053 | INFO     | src.config:<module>:119 - 代理配置: ✓
+2025-03-12 15:51:08.747 | INFO     | src.config:<module>:116 - 配置验证结果:
+2025-03-12 15:51:08.749 | INFO     | src.config:<module>:117 - 基础配置: ✓
+2025-03-12 15:51:08.749 | INFO     | src.config:<module>:118 - Google API: ✓
+2025-03-12 15:51:08.749 | INFO     | src.config:<module>:119 - 代理配置: ✓
+2025-03-12 15:51:08.791 | INFO     | __main__:initialize_langsmith:42 - 成功初始化 LangSmith
+2025-03-12 15:51:08.791 | INFO     | src.tools:__init__:60 - 正在初始化模型，使用设备: cpu
+2025-03-12 15:51:18.723 | INFO     | src.tools:__init__:273 - 使用代理设置: 127.0.0.1:7890
+2025-03-12 15:51:18.727 | INFO     | src.tools:__init__:286 - 成功初始化 Google 搜索服务
+2025-03-12 15:51:18.737 | INFO     | __main__:initialize_agent:56 - 成功初始化智能体
+2025-03-12 16:03:19.561 | INFO     | src.config:<module>:116 - 配置验证结果:
+2025-03-12 16:03:19.563 | INFO     | src.config:<module>:117 - 基础配置: ✓
+2025-03-12 16:03:19.563 | INFO     | src.config:<module>:118 - Google API: ✓
+2025-03-12 16:03:19.563 | INFO     | src.config:<module>:119 - 代理配置: ✓
+2025-03-12 16:03:19.612 | INFO     | __main__:initialize_langsmith:42 - 成功初始化 LangSmith
+2025-03-12 16:03:19.614 | INFO     | src.tools:__init__:60 - 正在初始化模型，使用设备: cpu
+2025-03-12 16:03:28.113 | INFO     | src.tools:__init__:273 - 使用代理设置: 127.0.0.1:7890
+2025-03-12 16:03:28.117 | INFO     | src.tools:__init__:286 - 成功初始化 Google 搜索服务
+2025-03-12 16:03:28.124 | INFO     | __main__:initialize_agent:56 - 成功初始化智能体
+2025-03-12 16:04:00.780 | INFO     | src.tools:search:303 - 开始执行搜索: 今天的美元汇率是多少
+2025-03-12 16:04:02.078 | INFO     | src.tools:search:324 - 搜索成功，找到 5 条结果
+2025-03-12 16:04:51.776 | INFO     | src.tools:search:303 - 开始执行搜索: 今天的日元汇率是多少
+2025-03-12 16:04:52.481 | INFO     | src.tools:search:324 - 搜索成功，找到 5 条结果
+2025-03-12 16:11:37.921 | INFO     | src.config:<module>:116 - 配置验证结果:
+2025-03-12 16:11:37.921 | INFO     | src.config:<module>:117 - 基础配置: ✓
+2025-03-12 16:11:37.922 | INFO     | src.config:<module>:118 - Google API: ✓
+2025-03-12 16:11:37.922 | INFO     | src.config:<module>:119 - 代理配置: ✓
+2025-03-12 16:11:38.186 | INFO     | __main__:initialize_langsmith:42 - 成功初始化 LangSmith
+2025-03-12 16:11:38.186 | INFO     | src.tools:__init__:60 - 正在初始化模型，使用设备: cpu
+2025-03-12 16:12:44.154 | INFO     | src.config:<module>:116 - 配置验证结果:
+2025-03-12 16:12:44.156 | INFO     | src.config:<module>:117 - 基础配置: ✓
+2025-03-12 16:12:44.156 | INFO     | src.config:<module>:118 - Google API: ✓
+2025-03-12 16:12:44.156 | INFO     | src.config:<module>:119 - 代理配置: ✓
+2025-03-12 16:12:44.215 | INFO     | __main__:initialize_langsmith:42 - 成功初始化 LangSmith
+2025-03-12 16:12:44.216 | INFO     | src.tools:__init__:60 - 正在初始化模型，使用设备: cpu
+2025-03-12 16:15:26.586 | INFO     | src.config:<module>:116 - 配置验证结果:
+2025-03-12 16:15:26.586 | INFO     | src.config:<module>:117 - 基础配置: ✓
+2025-03-12 16:15:26.586 | INFO     | src.config:<module>:118 - Google API: ✓
+2025-03-12 16:15:26.586 | INFO     | src.config:<module>:119 - 代理配置: ✓
+2025-03-12 16:15:26.668 | INFO     | __main__:initialize_langsmith:42 - 成功初始化 LangSmith
+2025-03-12 16:15:26.668 | INFO     | src.tools:__init__:60 - 正在初始化模型，使用设备: cpu
+2025-03-12 16:16:49.425 | INFO     | src.tools:__init__:273 - 使用代理设置: 127.0.0.1:7890
+2025-03-12 16:16:49.429 | INFO     | src.tools:__init__:286 - 成功初始化 Google 搜索服务
+2025-03-12 16:18:25.878 | INFO     | src.config:<module>:116 - 配置验证结果:
+2025-03-12 16:18:25.878 | INFO     | src.config:<module>:117 - 基础配置: ✓
+2025-03-12 16:18:25.878 | INFO     | src.config:<module>:118 - Google API: ✓
+2025-03-12 16:18:25.878 | INFO     | src.config:<module>:119 - 代理配置: ✓
+2025-03-12 16:18:26.133 | INFO     | __main__:initialize_langsmith:42 - 成功初始化 LangSmith
+2025-03-12 16:18:26.133 | INFO     | src.tools:__init__:60 - 正在初始化模型，使用设备: cpu
+2025-03-12 16:20:12.898 | INFO     | src.config:<module>:116 - 配置验证结果:
+2025-03-12 16:20:12.898 | INFO     | src.config:<module>:117 - 基础配置: ✓
+2025-03-12 16:20:12.899 | INFO     | src.config:<module>:118 - Google API: ✓
+2025-03-12 16:20:12.899 | INFO     | src.config:<module>:119 - 代理配置: ✓
+2025-03-12 16:20:12.938 | INFO     | __main__:initialize_langsmith:42 - 成功初始化 LangSmith
+2025-03-12 16:20:12.941 | INFO     | src.tools:__init__:60 - 正在初始化模型，使用设备: cpu
+2025-03-12 16:24:16.625 | INFO     | src.config:<module>:116 - 配置验证结果:
+2025-03-12 16:24:16.625 | INFO     | src.config:<module>:117 - 基础配置: ✓
+2025-03-12 16:24:16.626 | INFO     | src.config:<module>:118 - Google API: ✓
+2025-03-12 16:24:16.626 | INFO     | src.config:<module>:119 - 代理配置: ✓
+2025-03-12 16:24:16.684 | INFO     | __main__:initialize_langsmith:42 - 成功初始化 LangSmith
+2025-03-12 16:24:16.685 | INFO     | src.tools:__init__:60 - 正在初始化模型，使用设备: cpu
+2025-03-12 16:24:27.066 | INFO     | src.tools:__init__:273 - 使用代理设置: 127.0.0.1:7890
+2025-03-12 16:24:27.070 | INFO     | src.tools:__init__:286 - 成功初始化 Google 搜索服务
+2025-03-12 16:24:27.080 | INFO     | __main__:initialize_agent:56 - 成功初始化智能体
+2025-03-12 16:24:34.309 | INFO     | src.tools:load_documents:92 - 成功处理文件: bank.txt
+2025-03-12 16:24:34.310 | INFO     | src.tools:load_documents:98 - 开始创建文档嵌入，共 2 个文档片段
+2025-03-12 16:24:34.447 | INFO     | src.tools:load_documents:102 - 成功创建向量存储
+2025-03-12 16:24:54.085 | INFO     | src.tools:search:303 - 开始执行搜索: 今天的美元汇率是多少
+2025-03-12 16:24:55.257 | INFO     | src.tools:search:324 - 搜索成功，找到 5 条结果
+2025-03-13 10:28:42.787 | INFO     | src.config:<module>:116 - 配置验证结果:
+2025-03-13 10:28:42.787 | INFO     | src.config:<module>:117 - 基础配置: ✓
+2025-03-13 10:28:42.787 | INFO     | src.config:<module>:118 - Google API: ✓
+2025-03-13 10:28:42.787 | INFO     | src.config:<module>:119 - 代理配置: ✓
+2025-03-13 10:28:42.837 | INFO     | __main__:initialize_langsmith:42 - 成功初始化 LangSmith
+2025-03-13 10:28:42.837 | INFO     | src.tools:__init__:60 - 正在初始化模型，使用设备: cpu
+2025-03-13 10:29:10.182 | INFO     | src.tools:__init__:273 - 使用代理设置: 127.0.0.1:7890
+2025-03-13 10:29:10.199 | INFO     | src.tools:__init__:286 - 成功初始化 Google 搜索服务
+2025-03-13 10:29:10.206 | INFO     | __main__:initialize_agent:56 - 成功初始化智能体
+2025-03-13 10:29:28.843 | INFO     | src.tools:load_documents:92 - 成功处理文件: bank.txt
+2025-03-13 10:29:28.843 | INFO     | src.tools:load_documents:98 - 开始创建文档嵌入，共 2 个文档片段
+2025-03-13 10:29:29.029 | INFO     | src.tools:load_documents:102 - 成功创建向量存储
+2025-03-13 10:31:17.955 | INFO     | src.config:<module>:116 - 配置验证结果:
+2025-03-13 10:31:17.955 | INFO     | src.config:<module>:117 - 基础配置: ✓
+2025-03-13 10:31:17.955 | INFO     | src.config:<module>:118 - Google API: ✓
+2025-03-13 10:31:17.955 | INFO     | src.config:<module>:119 - 代理配置: ✓
+2025-03-13 10:31:17.995 | INFO     | __main__:initialize_langsmith:42 - 成功初始化 LangSmith
+2025-03-13 10:31:17.995 | INFO     | src.tools:__init__:60 - 正在初始化模型，使用设备: cpu
+2025-03-13 10:31:26.044 | INFO     | src.tools:__init__:273 - 使用代理设置: 127.0.0.1:7890
+2025-03-13 10:31:26.051 | INFO     | src.tools:__init__:286 - 成功初始化 Google 搜索服务
+2025-03-13 10:31:26.052 | INFO     | __main__:initialize_agent:56 - 成功初始化智能体
+2025-03-13 10:31:34.574 | INFO     | src.tools:load_documents:92 - 成功处理文件: bank.txt
+2025-03-13 10:31:34.575 | INFO     | src.tools:load_documents:98 - 开始创建文档嵌入，共 2 个文档片段
+2025-03-13 10:31:34.703 | INFO     | src.tools:load_documents:102 - 成功创建向量存储
+2025-03-13 10:32:39.934 | INFO     | src.config:<module>:116 - 配置验证结果:
+2025-03-13 10:32:39.935 | INFO     | src.config:<module>:117 - 基础配置: ✓
+2025-03-13 10:32:39.935 | INFO     | src.config:<module>:118 - Google API: ✓
+2025-03-13 10:32:39.935 | INFO     | src.config:<module>:119 - 代理配置: ✓
+2025-03-13 10:32:40.005 | INFO     | __main__:initialize_langsmith:42 - 成功初始化 LangSmith
+2025-03-13 10:32:40.006 | INFO     | src.tools:__init__:60 - 正在初始化模型，使用设备: cpu
+2025-03-13 10:32:48.898 | INFO     | src.tools:__init__:273 - 使用代理设置: 127.0.0.1:7890
+2025-03-13 10:32:48.902 | INFO     | src.tools:__init__:286 - 成功初始化 Google 搜索服务
+2025-03-13 10:32:48.910 | INFO     | __main__:initialize_agent:56 - 成功初始化智能体
+2025-03-13 10:32:54.505 | INFO     | src.tools:load_documents:92 - 成功处理文件: bank.txt
+2025-03-13 10:32:54.505 | INFO     | src.tools:load_documents:98 - 开始创建文档嵌入，共 2 个文档片段
+2025-03-13 10:32:54.631 | INFO     | src.tools:load_documents:102 - 成功创建向量存储
+2025-03-13 10:35:20.092 | INFO     | src.config:<module>:116 - 配置验证结果:
+2025-03-13 10:35:20.093 | INFO     | src.config:<module>:117 - 基础配置: ✓
+2025-03-13 10:35:20.093 | INFO     | src.config:<module>:118 - Google API: ✓
+2025-03-13 10:35:20.093 | INFO     | src.config:<module>:119 - 代理配置: ✓
+2025-03-13 10:35:20.130 | INFO     | __main__:initialize_langsmith:42 - 成功初始化 LangSmith
+2025-03-13 10:35:20.130 | INFO     | src.tools:__init__:60 - 正在初始化模型，使用设备: cpu
+2025-03-13 10:35:28.940 | INFO     | src.tools:__init__:273 - 使用代理设置: 127.0.0.1:7890
+2025-03-13 10:35:28.950 | INFO     | src.tools:__init__:286 - 成功初始化 Google 搜索服务
+2025-03-13 10:35:28.950 | INFO     | __main__:initialize_agent:56 - 成功初始化智能体
+2025-03-13 10:35:35.280 | INFO     | src.tools:load_documents:92 - 成功处理文件: bank.txt
+2025-03-13 10:35:35.281 | INFO     | src.tools:load_documents:98 - 开始创建文档嵌入，共 2 个文档片段
+2025-03-13 10:35:35.400 | INFO     | src.tools:load_documents:102 - 成功创建向量存储
+2025-03-13 10:50:07.390 | INFO     | src.config:<module>:116 - 配置验证结果:
+2025-03-13 10:50:07.399 | INFO     | src.config:<module>:117 - 基础配置: ✓
+2025-03-13 10:50:07.399 | INFO     | src.config:<module>:118 - Google API: ✓
+2025-03-13 10:50:07.399 | INFO     | src.config:<module>:119 - 代理配置: ✓
+2025-03-13 10:50:07.436 | INFO     | __main__:initialize_langsmith:42 - 成功初始化 LangSmith
+2025-03-13 10:50:07.436 | INFO     | src.tools:__init__:60 - 正在初始化模型，使用设备: cpu
+2025-03-13 10:50:15.025 | INFO     | src.tools:__init__:273 - 使用代理设置: 127.0.0.1:7890
+2025-03-13 10:50:15.025 | INFO     | src.tools:__init__:286 - 成功初始化 Google 搜索服务
+2025-03-13 10:50:15.025 | INFO     | __main__:initialize_agent:56 - 成功初始化智能体
+2025-03-13 10:50:21.647 | INFO     | src.tools:load_documents:92 - 成功处理文件: bank.txt
+2025-03-13 10:50:21.648 | INFO     | src.tools:load_documents:98 - 开始创建文档嵌入，共 2 个文档片段
+2025-03-13 10:50:21.764 | INFO     | src.tools:load_documents:102 - 成功创建向量存储
+2025-03-13 10:54:04.556 | INFO     | src.config:<module>:116 - 配置验证结果:
+2025-03-13 10:54:04.556 | INFO     | src.config:<module>:117 - 基础配置: ✓
+2025-03-13 10:54:04.556 | INFO     | src.config:<module>:118 - Google API: ✓
+2025-03-13 10:54:04.556 | INFO     | src.config:<module>:119 - 代理配置: ✓
+2025-03-13 10:54:04.590 | INFO     | __main__:initialize_langsmith:42 - 成功初始化 LangSmith
+2025-03-13 10:54:04.597 | INFO     | src.tools:__init__:60 - 正在初始化模型，使用设备: cpu
+2025-03-13 10:54:18.114 | INFO     | src.tools:__init__:273 - 使用代理设置: 127.0.0.1:7890
+2025-03-13 10:54:18.121 | INFO     | src.tools:__init__:286 - 成功初始化 Google 搜索服务
+2025-03-13 10:54:18.127 | INFO     | __main__:initialize_agent:56 - 成功初始化智能体
+2025-03-13 10:54:47.198 | INFO     | src.config:<module>:116 - 配置验证结果:
+2025-03-13 10:54:47.198 | INFO     | src.config:<module>:117 - 基础配置: ✓
+2025-03-13 10:54:47.198 | INFO     | src.config:<module>:118 - Google API: ✓
+2025-03-13 10:54:47.198 | INFO     | src.config:<module>:119 - 代理配置: ✓
+2025-03-13 10:54:47.237 | INFO     | __main__:initialize_langsmith:42 - 成功初始化 LangSmith
+2025-03-13 10:54:47.237 | INFO     | src.tools:__init__:60 - 正在初始化模型，使用设备: cpu
+2025-03-13 10:54:55.305 | INFO     | src.tools:__init__:273 - 使用代理设置: 127.0.0.1:7890
+2025-03-13 10:54:55.319 | INFO     | src.tools:__init__:286 - 成功初始化 Google 搜索服务
+2025-03-13 10:54:55.326 | INFO     | __main__:initialize_agent:56 - 成功初始化智能体
+2025-03-13 10:55:30.171 | INFO     | src.config:<module>:116 - 配置验证结果:
+2025-03-13 10:55:30.171 | INFO     | src.config:<module>:116 - 配置验证结果:
+2025-03-13 10:55:30.171 | INFO     | src.config:<module>:117 - 基础配置: ✓
+2025-03-13 10:55:30.171 | INFO     | src.config:<module>:117 - 基础配置: ✓
+2025-03-13 10:55:30.174 | INFO     | src.config:<module>:118 - Google API: ✓
+2025-03-13 10:55:30.174 | INFO     | src.config:<module>:118 - Google API: ✓
+2025-03-13 10:55:30.174 | INFO     | src.config:<module>:119 - 代理配置: ✓
+2025-03-13 10:55:30.174 | INFO     | src.config:<module>:119 - 代理配置: ✓
+2025-03-13 10:58:55.375 | INFO     | src.config:<module>:116 - 配置验证结果:
+2025-03-13 10:58:55.375 | INFO     | src.config:<module>:117 - 基础配置: ✓
+2025-03-13 10:58:55.375 | INFO     | src.config:<module>:118 - Google API: ✓
+2025-03-13 10:58:55.375 | INFO     | src.config:<module>:119 - 代理配置: ✓
+2025-03-13 10:58:55.409 | INFO     | __main__:initialize_langsmith:42 - 成功初始化 LangSmith
+2025-03-13 10:58:55.409 | INFO     | src.tools:__init__:60 - 正在初始化模型，使用设备: cpu
+2025-03-13 10:59:03.675 | INFO     | src.tools:__init__:273 - 使用代理设置: 127.0.0.1:7890
+2025-03-13 10:59:03.678 | INFO     | src.tools:__init__:286 - 成功初始化 Google 搜索服务
+2025-03-13 10:59:03.685 | INFO     | __main__:initialize_agent:56 - 成功初始化智能体
+2025-03-13 10:59:35.636 | INFO     | src.config:<module>:116 - 配置验证结果:
+2025-03-13 10:59:35.636 | INFO     | src.config:<module>:117 - 基础配置: ✓
+2025-03-13 10:59:35.636 | INFO     | src.config:<module>:118 - Google API: ✓
+2025-03-13 10:59:35.636 | INFO     | src.config:<module>:119 - 代理配置: ✓
+2025-03-13 10:59:35.685 | INFO     | __main__:initialize_langsmith:42 - 成功初始化 LangSmith
+2025-03-13 10:59:35.686 | INFO     | src.tools:__init__:60 - 正在初始化模型，使用设备: cpu
+2025-03-13 10:59:42.907 | INFO     | src.tools:__init__:273 - 使用代理设置: 127.0.0.1:7890
+2025-03-13 10:59:42.907 | INFO     | src.tools:__init__:286 - 成功初始化 Google 搜索服务
+2025-03-13 10:59:42.920 | INFO     | __main__:initialize_agent:56 - 成功初始化智能体
+2025-03-13 10:59:47.995 | INFO     | src.tools:load_documents:92 - 成功处理文件: bank.txt
+2025-03-13 10:59:47.995 | INFO     | src.tools:load_documents:98 - 开始创建文档嵌入，共 2 个文档片段
+2025-03-13 10:59:48.116 | INFO     | src.tools:load_documents:102 - 成功创建向量存储
+2025-03-13 11:02:02.900 | INFO     | src.config:<module>:116 - 配置验证结果:
+2025-03-13 11:02:02.900 | INFO     | src.config:<module>:117 - 基础配置: ✓
+2025-03-13 11:02:02.900 | INFO     | src.config:<module>:118 - Google API: ✓
+2025-03-13 11:02:02.900 | INFO     | src.config:<module>:119 - 代理配置: ✓
+2025-03-13 11:02:02.935 | INFO     | __main__:initialize_langsmith:42 - 成功初始化 LangSmith
+2025-03-13 11:02:02.935 | INFO     | src.tools:__init__:60 - 正在初始化模型，使用设备: cpu
+2025-03-13 11:02:10.459 | INFO     | src.tools:__init__:273 - 使用代理设置: 127.0.0.1:7890
+2025-03-13 11:02:10.462 | INFO     | src.tools:__init__:286 - 成功初始化 Google 搜索服务
+2025-03-13 11:02:10.465 | INFO     | __main__:initialize_agent:56 - 成功初始化智能体

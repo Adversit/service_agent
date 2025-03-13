@@ -1,0 +1,14 @@
+README.md
+pyproject.toml
+setup.py
+bank_service_agent.egg-info/PKG-INFO
+bank_service_agent.egg-info/SOURCES.txt
+bank_service_agent.egg-info/dependency_links.txt
+bank_service_agent.egg-info/requires.txt
+bank_service_agent.egg-info/top_level.txt
+src/agent.py
+src/app.py
+src/config.py
+src/tools.py
+tests/test_google_api.py
+tests/test_proxy.py
