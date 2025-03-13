@@ -49,7 +49,7 @@ python examples/model_tool_example.py
 
 1. 克隆项目：
 ```bash
-git clone [项目地址]
+git clone [项目地址]:
 cd bank_service_agent
 ```
 
@@ -121,7 +121,7 @@ bank_service_agent/
 
 ## 许可证
 
-[选择合适的许可证] 
+[MIT]
 =======
 # service_agent
 >>>>>>> 05d4e94cbb76251e58e5d1cfb3126ca00cb49f75
